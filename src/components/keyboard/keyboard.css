@@ -1,0 +1,60 @@
+.keyactive {
+    background-color: black !important;
+    color:#f1eef7 !important;
+}
+
+.done {
+    color: blue;
+}
+
+.current {
+    background: #dd3d28
+}
+
+.btnkey {
+    background-color: #f1eef7;
+display: inline-block;
+color: rgb(12, 11, 11);
+font-weight: 700;
+padding-top: .5rem;
+padding-bottom: .5rem;
+/* padding-left: 1rem; */
+padding-right: 1rem;
+border-bottom-width: 4px;
+border-color: #4c4c4d;
+border-radius: .25rem;
+cursor: pointer;
+/*width: calc(100% /14); */
+}
+
+.key-row1 {
+    width: calc(100% /16);
+}
+
+.key-row2 {
+    width: calc(100% /15);
+}
+
+.key-tab {
+    width: calc((100% /15) *1.5);
+}
+
+.key-row3 {
+    width: calc(100% /15);
+}
+
+.key-cap {
+    width: calc((100% /15) *1.5);
+}
+
+.key-backspace {
+    width: calc((100% /16) *3) ;
+}
+
+.key-row4 {
+    width: calc(100% /10);
+}
+
+.key-space{
+    width: calc((100% /10) * 5);
+}
